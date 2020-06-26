@@ -1,0 +1,68 @@
+body{
+  background:lightgray;
+  
+}
+div{
+  font-size: 18px;
+  display:inline-block;
+  border-style:solid;
+  padding:10px;
+  margin:10px;
+  width:33.33%
+  
+ 
+  
+}
+
+h1{
+  text-align:center;
+  padding: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  color:purple;
+}
+
+footer{
+  background-color:lightgreen;
+}
+
+
+
+.name{
+  position:relative;
+  background-color:darkgreen;
+  border-style:groove;
+  width:80px;
+  display:flex;
+}
+
+@media(min-width:992px){
+  div{
+    width:33.33%
+  }
+  
+  
+}
+@media(min-width:768px max-width:991){
+  div{
+    width:50%
+  }
+  
+}
+@media(max-width:767px){
+  div{
+    width:100%
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
